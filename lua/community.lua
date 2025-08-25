@@ -9,5 +9,6 @@ return {
   { import = "astrocommunity.lsp.nvim-java" },
   { import = "astrocommunity.diagnostics.trouble-nvim" }, -- opt-in to nvim-java for LSP
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.typescript" },
   -- import/override with your plugins folder
 }

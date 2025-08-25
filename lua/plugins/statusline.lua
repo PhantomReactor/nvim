@@ -6,13 +6,13 @@ return {
 
     if opts.opts and opts.opts.colors then
       for k, _ in pairs(opts.opts.colors) do
-        if string.find(k, "bg") then opts.opts.colors[k] = "NONE" end
+        if string.find(k, "bg") then opts.opts.colors[k] = "#2a2a2a" end
       end
     end
     opts.winbar = nil
     opts.statusline[1] = status.component.mode {
       surround = {
-        color = { main = "NONE" },
+        color = { main = "#2a2a2a" },
       },
       mode_text = { padding = { left = 1, right = 1 } },
     } -- add the mode text

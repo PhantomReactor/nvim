@@ -12,6 +12,7 @@ return {
           ["<C-l>"] = { "<cmd>TmuxNavigateRight<cr>", desc = "window right" },
           ["<C-j>"] = { "<cmd>TmuxNavigateDown<cr>", desc = "window down" },
           ["<C-k>"] = { "<cmd>TmuxNavigateUp<cr>", desc = "window up" },
+          ["<C-f>"] = { "<cmd>silent !tmux neww tmux-sessionizer<cr>", desc = "open tmux sessionizer" },
           ["<C-d>"] = { "<C-d>zz" },
           ["<C-u>"] = { "<C-u>zz" },
           ["J"] = { "mzJ`z" },

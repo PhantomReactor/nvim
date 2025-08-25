@@ -11,6 +11,7 @@ return {
         "ts_ls",
         "tailwindcss",
         "gopls",
+        "rust_analyzer",
         -- add more arguments for adding more language servers
       },
     },
@@ -25,6 +26,7 @@ return {
         "stylua",
         "checkstyle",
         "google-java-format",
+        "gofmt",
         -- add more arguments for adding more null-ls sources
       },
     },
